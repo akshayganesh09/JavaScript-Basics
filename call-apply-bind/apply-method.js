@@ -33,7 +33,7 @@ function selfIntroduce() {
 
 // 1. Is a function property that is used to invoke a function with a specified value for 'this' and arguments can also be provided individually.
 // 2. This is a Immediately invoked function and arguments are passed as Array of items.
-// 3. .call() is used to 'borrow' methods from one object and use it in another object.
+// 3. .apply() is used to 'borrow' methods from one object and use it in another object.
 
 // Here one common method can be reused by different objects - which improves modularity.
 selfIntroduce.apply(rider1); // Output: Hello everyone! I'm Valentino Rossi, I'm from Italy, and I'm 9-time MotoGP World Champion.
